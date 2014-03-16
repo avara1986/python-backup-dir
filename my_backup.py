@@ -3,9 +3,8 @@
 # Backup files - As published in Python Cookbook
 import sys, os, shutil, filecmp
 import time, csv
-#folder_in = "/mnt/samba/WWW_WEBS/PRUEBAS/"
-folder_in = "/var/www/test-django2/"
-folder_dest = "/root/Desktop/backup1/"
+folder_in = "/var/www/test_origin/"
+folder_dest = "/var/www/test_dest/"
 
 script_folder = os.path.dirname(os.path.realpath(__file__))
 log_file = script_folder+'/my_backup_result.csv'
